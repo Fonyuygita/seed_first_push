@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Container styles */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    flex-direction: column;
+}
+
+h1{
+    color: #999;
+    font-family: sans-serif;
+    /* border-bottom: 1px solid #999; */
+}
+
+.line{
+    width: 120px;
+    height: 2px;
+    background-color: rgb(79, 243, 3);
+    margin-top: -16px;
+}
+
+.inner{
+    color: rgb(11, 211, 55);
+}
