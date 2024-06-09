@@ -31,3 +31,30 @@ h1{
 .inner{
     color: rgb(11, 211, 55);
 }
+
+
+/* style the app */
+
+.todo_app{
+    height: 450px;
+    width: 350px;
+    background-color: #333;
+    margin-top: 3rem;
+    box-shadow: 12px 12px 12px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.user_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
